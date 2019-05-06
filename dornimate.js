@@ -7,9 +7,9 @@ lib.ssMetadata = [
 		{name:"dornimate_atlas_2", frames: [[682,0,694,766],[0,788,678,785],[0,0,680,786],[680,788,680,782]]},
 		{name:"dornimate_atlas_3", frames: [[0,769,690,766],[0,0,690,767],[692,779,676,779],[692,0,680,777]]},
 		{name:"dornimate_atlas_4", frames: [[688,770,683,766],[0,775,686,766],[682,0,683,768],[0,0,680,773]]},
-		{name:"dornimate_atlas_5", frames: [[0,771,674,774],[0,0,680,769],[1364,0,680,767],[676,771,680,767],[682,0,680,767],[1358,769,680,767]]},
-		{name:"dornimate_atlas_6", frames: [[682,0,680,767],[1359,771,679,765],[0,769,680,765],[1364,0,677,769],[682,769,675,770],[0,0,680,767]]},
-		{name:"dornimate_atlas_7", frames: [[681,772,479,885],[1410,1742,225,225],[1428,1199,220,222],[678,1742,286,233],[1650,1367,185,207],[0,767,679,765],[0,0,679,765],[681,0,674,770],[1357,0,673,771],[0,1534,366,455],[966,1742,220,247],[1188,1742,220,247],[1867,773,169,305],[678,1659,913,81],[1162,773,341,424],[1650,1135,205,230],[1428,1423,205,230],[1837,1392,136,255],[1857,1135,137,255],[1911,1649,132,257],[1505,773,360,360],[1775,1649,134,254],[1637,1576,136,255],[368,1534,308,400],[1162,1199,264,304]]},
+		{name:"dornimate_atlas_5", frames: [[676,771,680,767],[0,771,674,774],[0,0,680,769],[1358,769,680,767],[682,0,680,767],[1364,0,680,767]]},
+		{name:"dornimate_atlas_6", frames: [[1359,771,679,765],[0,769,680,765],[1364,0,677,769],[682,769,675,770],[682,0,680,767],[0,0,680,767]]},
+		{name:"dornimate_atlas_7", frames: [[681,772,479,885],[1410,1742,225,225],[1428,1199,220,222],[678,1742,286,233],[1650,1367,185,207],[0,767,679,765],[0,0,679,765],[681,0,674,770],[1357,0,673,771],[0,1534,366,455],[966,1742,220,247],[1188,1742,220,247],[1867,773,169,305],[678,1659,913,81],[1162,773,341,424],[1428,1423,205,230],[1650,1135,205,230],[1837,1392,136,255],[1857,1135,137,255],[1911,1649,132,257],[1505,773,360,360],[1775,1649,134,254],[1637,1576,136,255],[368,1534,308,400],[1162,1199,264,304]]},
 		{name:"dornimate_atlas_8", frames: [[667,790,152,134],[631,463,47,32],[470,522,152,176],[481,1038,98,103],[667,926,87,211],[631,260,57,65],[240,283,22,23],[206,988,113,105],[952,199,61,55],[240,258,23,23],[111,996,80,116],[955,534,47,27],[0,1114,138,47],[265,0,172,193],[581,1038,75,108],[955,563,44,26],[756,1127,129,43],[936,260,71,214],[952,0,59,64],[229,720,96,266],[747,524,101,264],[120,519,107,262],[355,516,113,261],[120,258,118,259],[826,0,124,258],[133,0,130,256],[0,779,115,201],[631,327,56,66],[439,0,128,258],[265,195,123,259],[0,258,118,261],[821,260,113,262],[390,195,43,40],[117,783,87,211],[952,132,57,65],[910,936,71,214],[952,66,59,64],[571,772,94,264],[470,700,99,261],[850,524,103,258],[0,521,108,256],[631,516,114,254],[390,260,120,254],[697,0,127,253],[193,1095,92,85],[327,779,115,201],[631,395,56,66],[0,0,131,256],[955,476,57,56],[569,0,126,258],[697,255,122,259],[512,260,117,260],[240,456,113,262],[756,936,152,102],[850,784,152,150],[327,982,152,102],[321,1086,155,62],[0,982,109,118],[756,1040,109,85]]}
 ];
 
@@ -130,36 +130,36 @@ p.nominalBounds = new cjs.Rectangle(0,0,2152,1475);
 
 
 (lib.CachedTexturedBitmap_112 = function() {
-	this.initialize(ss["dornimate_atlas_6"]);
+	this.initialize(ss["dornimate_atlas_5"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedTexturedBitmap_113 = function() {
-	this.initialize(ss["dornimate_atlas_7"]);
-	this.gotoAndStop(5);
+	this.initialize(ss["dornimate_atlas_6"]);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedTexturedBitmap_114 = function() {
 	this.initialize(ss["dornimate_atlas_7"]);
-	this.gotoAndStop(6);
+	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedTexturedBitmap_115 = function() {
-	this.initialize(ss["dornimate_atlas_6"]);
-	this.gotoAndStop(1);
+	this.initialize(ss["dornimate_atlas_7"]);
+	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedTexturedBitmap_116 = function() {
 	this.initialize(ss["dornimate_atlas_6"]);
-	this.gotoAndStop(2);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -222,14 +222,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,2152,1475);
 
 (lib.CachedTexturedBitmap_124 = function() {
 	this.initialize(ss["dornimate_atlas_6"]);
-	this.gotoAndStop(3);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedTexturedBitmap_125 = function() {
 	this.initialize(ss["dornimate_atlas_6"]);
-	this.gotoAndStop(4);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -250,7 +250,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,2152,1475);
 
 (lib.CachedTexturedBitmap_128 = function() {
 	this.initialize(ss["dornimate_atlas_5"]);
-	this.gotoAndStop(0);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -313,28 +313,28 @@ p.nominalBounds = new cjs.Rectangle(0,0,2152,1475);
 
 (lib.CachedTexturedBitmap_136 = function() {
 	this.initialize(ss["dornimate_atlas_5"]);
-	this.gotoAndStop(1);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedTexturedBitmap_137 = function() {
-	this.initialize(ss["dornimate_atlas_6"]);
-	this.gotoAndStop(5);
+	this.initialize(ss["dornimate_atlas_5"]);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedTexturedBitmap_138 = function() {
 	this.initialize(ss["dornimate_atlas_5"]);
-	this.gotoAndStop(2);
+	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedTexturedBitmap_139 = function() {
-	this.initialize(ss["dornimate_atlas_5"]);
-	this.gotoAndStop(3);
+	this.initialize(ss["dornimate_atlas_6"]);
+	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -348,13 +348,13 @@ p.nominalBounds = new cjs.Rectangle(0,0,2152,1475);
 
 (lib.CachedTexturedBitmap_140 = function() {
 	this.initialize(ss["dornimate_atlas_5"]);
-	this.gotoAndStop(4);
+	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedTexturedBitmap_141 = function() {
-	this.initialize(ss["dornimate_atlas_5"]);
+	this.initialize(ss["dornimate_atlas_6"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
@@ -7788,19 +7788,19 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedTexturedBitmap_1.png?1557045054313", id:"CachedTexturedBitmap_1"},
-		{src:"images/dornimate_atlas_.png?1557045053755", id:"dornimate_atlas_"},
-		{src:"images/dornimate_atlas_2.png?1557045053755", id:"dornimate_atlas_2"},
-		{src:"images/dornimate_atlas_3.png?1557045053755", id:"dornimate_atlas_3"},
-		{src:"images/dornimate_atlas_4.png?1557045053756", id:"dornimate_atlas_4"},
-		{src:"images/dornimate_atlas_5.png?1557045053756", id:"dornimate_atlas_5"},
-		{src:"images/dornimate_atlas_6.png?1557045053756", id:"dornimate_atlas_6"},
-		{src:"images/dornimate_atlas_7.png?1557045053757", id:"dornimate_atlas_7"},
-		{src:"images/dornimate_atlas_8.png?1557045053758", id:"dornimate_atlas_8"},
-		{src:"sounds/Audience_ApplauseMatthiew111206899159.mp3?1557045054313", id:"Audience_ApplauseMatthiew111206899159"},
-		{src:"sounds/SceneBlankFacePhotoshop3onlineaudioconvertercom.mp3?1557045054313", id:"SceneBlankFacePhotoshop3onlineaudioconvertercom"},
-		{src:"sounds/פעילי_כחול_לבן_התעקשו_לשמוח_גם_כשהתברר_הניצחון_של_הימין.mp3?1557045054313", id:"פעילי_כחול_לבן_התעקשו_לשמוח_גם_כשהתברר_הניצחון_של_הימין"},
-		{src:"sounds/ראיון_נדיר_של_ראש_הממשלה_בנימין_נתניהו1.mp3?1557045054313", id:"ראיון_נדיר_של_ראש_הממשלה_בנימין_נתניהו1"}
+		{src:"images/CachedTexturedBitmap_1.png", id:"CachedTexturedBitmap_1"},
+		{src:"images/dornimate_atlas_.png", id:"dornimate_atlas_"},
+		{src:"images/dornimate_atlas_2.png", id:"dornimate_atlas_2"},
+		{src:"images/dornimate_atlas_3.png", id:"dornimate_atlas_3"},
+		{src:"images/dornimate_atlas_4.png", id:"dornimate_atlas_4"},
+		{src:"images/dornimate_atlas_5.png", id:"dornimate_atlas_5"},
+		{src:"images/dornimate_atlas_6.png", id:"dornimate_atlas_6"},
+		{src:"images/dornimate_atlas_7.png", id:"dornimate_atlas_7"},
+		{src:"images/dornimate_atlas_8.png", id:"dornimate_atlas_8"},
+		{src:"sounds/Audience_ApplauseMatthiew111206899159.mp3", id:"Audience_ApplauseMatthiew111206899159"},
+		{src:"sounds/SceneBlankFacePhotoshop3onlineaudioconvertercom.mp3", id:"SceneBlankFacePhotoshop3onlineaudioconvertercom"},
+		{src:"sounds/פעילי_כחול_לבן_התעקשו_לשמוח_גם_כשהתברר_הניצחון_של_הימין.mp3", id:"פעילי_כחול_לבן_התעקשו_לשמוח_גם_כשהתברר_הניצחון_של_הימין"},
+		{src:"sounds/ראיון_נדיר_של_ראש_הממשלה_בנימין_נתניהו1.mp3", id:"ראיון_נדיר_של_ראש_הממשלה_בנימין_נתניהו1"}
 	],
 	preloads: []
 };
